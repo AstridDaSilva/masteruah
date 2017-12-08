@@ -21,9 +21,7 @@ git config --global user.email ejemplo@example.com
 
 Crear un repositorio en vuestro GitHub llamado masteruah.
 
-	![paso1_img]
-	
-	![Repositorio masteruah](https://github.com/AstridDaSilva/masteruah/blob/master/Imagenes/CrearRepositorio.PNG)
+	![Repositorio masteruah][img1]
 	
 ### **Generar SSH**
 
@@ -155,4 +153,4 @@ Nombre del compañero 3 enlace a github 3
 	
 	
 	
-[paso1_img]: masteruah/Imagenes/Autenticacion1.PNG "Crear Repositorio"	
+[img1]: masteruah/Imagenes/Autenticacion1.PNG "Crear Repositorio"	
