@@ -155,4 +155,4 @@ Nombre del compañero 3 enlace a github 3
 	
 	
 	
-[paso1_img]: Imagenes/CrearRepositorio.PNG "Crear Repositorio"	
+[paso1_img]: masteruah/Imagenes/Autenticacion1.PNG "Crear Repositorio"	
