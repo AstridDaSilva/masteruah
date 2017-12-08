@@ -1,1 +1,3 @@
 Este archivo es privado.
+
+Prueba .gitignore
