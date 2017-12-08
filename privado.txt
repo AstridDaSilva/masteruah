@@ -1,3 +1,5 @@
 Este archivo es privado.
 
 Prueba .gitignore
+
+Prueba 2
