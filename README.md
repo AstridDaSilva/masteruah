@@ -68,7 +68,7 @@ Publicar los cambios:
 
 Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inicial  con el mensaje commit inicial.
 		
-	git add REAMDE.md
+	git add README.md
 			
 Crear en el repositorio local un fichero llamado privado.txt.
 		
@@ -110,7 +110,9 @@ Subir el tag v0.1
 	Poner el doble factor de autentificación en vuestra cuenta de GitHub.
 	Añadir la clave pública que se corresponde a tu ordenador.
 	
-	![Perfil](https://github.com/AstridDaSilva/masteruah/blob/master/Imagenes/Perfil.PNG)
+	![Perfil](Autenticacion1.PNG)
+	
+	![paso1_img]
 	
 	![Autenticación](https://github.com/AstridDaSilva/masteruah/blob/master/Imagenes/Autenticacion1.PNG)
 	
@@ -149,3 +151,5 @@ Nombre del compañero 3 enlace a github 3
 	Poner a **github.com/asanzdiego** como colaborador del repositorio masteruah.
 
 	![Colaborador](https://github.com/AstridDaSilva/masteruah/blob/master/Imagenes/Colaborador.PNG)
+	
+[paso1_img]: imagenes/Autenticacion.png "Autenticación"
