@@ -21,7 +21,7 @@ git config --global user.email ejemplo@example.com
 
 Crear un repositorio en vuestro GitHub llamado masteruah.
 
-![imagen Crear Repositorio](Imagenes/CrearRepositorio.PNG) "Crear Repositorio"
+![imagen Crear Repositorio](Imagenes/CrearRepositorio.PNG) 
 	
 ### **Generar SSH**
 
@@ -34,7 +34,7 @@ Crear un repositorio en vuestro GitHub llamado masteruah.
 	git clone remote_location clone_name
 	git clone git@github.com:AstridDaSilva/masteruah.git
 
-![imagen Clonar Repositorio](Imagenes/Clone.PNG) "Clonar Repositorio"
+![imagen Clonar Repositorio](Imagenes/Clone.PNG) 
 		
 ### **README**
 
@@ -98,11 +98,15 @@ Crear un tag v0.1.
 	
 	git tag -a v0.1 -m "Versión 0.1"
 	git tag
+	
+	git tag v0.1
 
 Subir el tag v0.1
 
 	git push origin master --tags
 	git push origin v0.1
+	
+	git push --tag origin master
 
 ###**Cuenta de GitHub**
 
