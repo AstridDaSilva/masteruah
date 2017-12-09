@@ -21,6 +21,7 @@ git config --global user.email ejemplo@example.com
 
 Crear un repositorio en vuestro GitHub llamado masteruah.
 
+![imagen Crear Repositorio](CrearRepositorio.PNG)
 	
 ### **Generar SSH**
 
@@ -33,6 +34,7 @@ Crear un repositorio en vuestro GitHub llamado masteruah.
 	git clone remote_location clone_name
 	git clone git@github.com:AstridDaSilva/masteruah.git
 
+![imagen Clonar Repositorio](Clone.PNG)
 		
 ### **README**
 
@@ -108,12 +110,22 @@ Subir el tag v0.1
 	Poner el doble factor de autentificación en vuestra cuenta de GitHub.
 	Añadir la clave pública que se corresponde a tu ordenador.
 	
-		
+![imagen Perfil](Perfil.PNG)
+
+![imagen Autenticación](Autenticacion1.PNG)
+
+![imagen Clave Pública](SSH.PNG)
+	
 ### **Uso social de GitHub**
 
 Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y  sigueles.
 Seguir los repositorios masteruah del resto de tus compañeros.
 Añadir una estrella a los repositorios masteruah del resto de tus compañeros.
+
+
+![imagen Compañeros de clase](Follow.PNG)
+
+![imagen Estrellas](Estrellas.PNG)
 
 ### **Crear una tabla**
 
@@ -136,3 +148,4 @@ Nombre del compañero 3 enlace a github 3
 
 	Poner a **github.com/asanzdiego** como colaborador del repositorio masteruah.
 
+![Colaborador](Colaborador.PNG)
