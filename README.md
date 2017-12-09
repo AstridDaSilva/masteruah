@@ -110,11 +110,11 @@ Subir el tag v0.1
 	Poner el doble factor de autentificación en vuestra cuenta de GitHub.
 	Añadir la clave pública que se corresponde a tu ordenador.
 	
-![imagen Perfil](Perfil.PNG)
+![imagen Perfil](Imagenes/Perfil.PNG)
 
-![imagen Autenticación](Autenticacion1.PNG)
+![imagen Autenticación](Imagenes/Autenticacion1.PNG)
 
-![imagen Clave Pública](SSH.PNG)
+![imagen Clave Pública](Imagenes/SSH.PNG)
 	
 ### **Uso social de GitHub**
 
@@ -123,9 +123,9 @@ Seguir los repositorios masteruah del resto de tus compañeros.
 Añadir una estrella a los repositorios masteruah del resto de tus compañeros.
 
 
-![imagen Compañeros de clase](Follow.PNG)
+![imagen Compañeros de clase](Imagenes/Follow.PNG)
 
-![imagen Estrellas](Estrellas.PNG)
+![imagen Estrellas](Imagenes/Estrellas.PNG)
 
 ### **Crear una tabla**
 
@@ -148,4 +148,4 @@ Nombre del compañero 3 enlace a github 3
 
 	Poner a **github.com/asanzdiego** como colaborador del repositorio masteruah.
 
-![Colaborador](Colaborador.PNG)
+![Colaborador](Imagenes/Colaborador.PNG)
