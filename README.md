@@ -203,4 +203,13 @@ Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
 	git checkout v0.2	
 	echo "Adios" >> 1.txt
 	git add .	
+	git commit -m "adios en 1.txt"
+
+Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
+	
+	git checkout master
+	git merge v0.2
+	vim 1.txt
+	git add .
+	git commit -m "arreglado merge en 1.txt"
 
