@@ -178,7 +178,7 @@ Posicionarse en esa rama
 
 	git push origin v0.2
 
-![Ramav2.0](Ramav02.PNG)	
+![Ramav2.0](Imagenes/Ramav02.PNG)	
 
 ### Merge directo
 
@@ -212,4 +212,56 @@ Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
 	vim 1.txt
 	git add .
 	git commit -m "arreglado merge en 1.txt"
+
+### Listado de ramas
+
+Listar las ramas con merge y las ramas sin merge.
+	
+	git branch --merged
+	git branch --no-merged
+
+### Arreglar conflicto
+
+Arreglar el conflicto anterior y hacer un commit.
+	
+	vim 1.txt
+	git add .
+	git commit -m "arreglado merge en 1.txt"
+	
+### Borrar rama
+
+Crear un tag v0.2
+	
+	git tag v0.2
+
+Borrar la rama v0.2
+	
+	git branch -d v0.2
+
+### Listado de cambios
+
+Listar los distintos commits con sus ramas y sus tags.
+	
+	git config --global alias.list 'log --oneline --decorate --graph --all'
+	git list
+	
+### Crear una organización
+
+Crear una organización llamada masteruah-tunombredeusuariodegithub
+	
+	En el menú de GitHub > Pulsar en el icono “+” > Pinchar en “New organization”
+	
+![Organizacion](Imagenes/Organizacion.PNG)
+
+### Crear equipos
+
+Crear 2 equipos en la organización masteruah-tunombredeusuariodegithub, uno  
+llamado administradores con más permisos y otro colaboradores con menos permisos.
+
+Ir a http://github.com/masteruah-tunombredeusuariodegithub > Pinchar en
+"Teams" > Pulsar en "New team"
+
+![Teams](Imagenes/Equipos.PNG)
+
+![Teams](Imagenes/Miembros.PNG)
 
