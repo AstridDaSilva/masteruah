@@ -153,3 +153,54 @@ Nombre del compañero 3 enlace a github 3
 	Poner a **github.com/asanzdiego** como colaborador del repositorio masteruah.
 
 ![Colaborador](Imagenes/Colaborador.PNG)
+
+
+### Ejercicios avanzados
+
+### Ramas
+
+Crear una rama
+
+	git branch v0.2
+	git branch
+	
+Posicionarse en esa rama
+	
+	git checkout v0.2
+
+### Añadir archivo 2.txt
+
+	vi 2.txt
+	git add .
+	git commit -m "Añadir archivo 2.txt"
+
+### Crear rama remota v0.2
+
+	git push origin v0.2
+
+![Ramav2.0](Ramav02.PNG)	
+
+### Merge directo
+
+Posicionarse en la rama master.
+	
+	git checkout master
+	
+Hacer un merge de la rama v0.2 en la rama master.
+
+	git merge v0.2 -m "merge v0.2 sin conflictos"
+
+### Merge con conflicto
+	
+En la rama master poner Hola en el fichero 1.txt y hacer commit.
+	
+	git checkout master
+	echo "Hola" >> 1.txt
+	git add .
+	git commit -m "hola en 1.txt"
+
+Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
+	git checkout v0.2	
+	echo "Adios" >> 1.txt
+	git add .	
+
