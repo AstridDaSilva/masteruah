@@ -259,8 +259,30 @@ Crear una organización llamada masteruah-tunombredeusuariodegithub
 Crear 2 equipos en la organización masteruah-tunombredeusuariodegithub, uno  
 llamado administradores con más permisos y otro colaboradores con menos permisos.
 
-![Teams](Imagenes/Equipos.PNG)
+![Teams1](Imagenes/Equipos.PNG)
 
-![Teams](Imagenes/Miembros.PNG)
+![Teams2](Imagenes/Miembros.PNG)
+
+![Teams3](Imagenes/Permisos.PNG)
+
+### Convertir un repositorio en un servidor web
+
+git clone https://github.com/AstridDaSilva/masteruah-AstridDaSilva.github.io
+
+cd masteruah-AstridDaSilva.github.io
+
+echo "Hola Mundo" > index.html
+
+git add --all
+git commit -m "Initial commit"
+git push -u origin master
+
+https://masteruah-AstridDaSilva.github.io
+
+
+
+
+
+
 
 
