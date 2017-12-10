@@ -200,6 +200,7 @@ En la rama master poner Hola en el fichero 1.txt y hacer commit.
 	git commit -m "hola en 1.txt"
 
 Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
+	
 	git checkout v0.2	
 	echo "Adios" >> 1.txt
 	git add .	
@@ -258,10 +259,8 @@ Crear una organización llamada masteruah-tunombredeusuariodegithub
 Crear 2 equipos en la organización masteruah-tunombredeusuariodegithub, uno  
 llamado administradores con más permisos y otro colaboradores con menos permisos.
 
-Ir a http://github.com/masteruah-tunombredeusuariodegithub > Pinchar en
-"Teams" > Pulsar en "New team"
-
 ![Teams](Imagenes/Equipos.PNG)
 
 ![Teams](Imagenes/Miembros.PNG)
+
 
